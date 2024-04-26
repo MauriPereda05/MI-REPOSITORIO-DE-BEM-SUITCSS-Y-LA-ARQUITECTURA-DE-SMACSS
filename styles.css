@@ -24,8 +24,8 @@ body {
 .container-items input {
   margin: 0 auto;
   margin-top: 15px;
-  width: 300px;
-  height: 30px;
+  width: 330px;
+  height: 40px;
 }
 .container-items img {
   margin-bottom: 70px;
@@ -35,7 +35,8 @@ body {
 .container-items button {
   margin: 0 auto;
   margin-top: 20px;
-  width: 200px;
+  width: 230px;
+  height: 25px;
 }
 
 body {
@@ -43,4 +44,21 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+button {
+  background-color: #01eeff;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */

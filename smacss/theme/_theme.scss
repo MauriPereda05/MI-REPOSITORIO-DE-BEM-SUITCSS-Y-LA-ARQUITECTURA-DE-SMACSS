@@ -4,3 +4,20 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+button{
+   background-color: #01eeff;
+   border: none;
+   border-radius: 20px;
+   transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: red;
+}
