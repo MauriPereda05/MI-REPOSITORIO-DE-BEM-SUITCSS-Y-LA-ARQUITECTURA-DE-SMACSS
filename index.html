@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Nomenclatura de BEM y SUITCSS </h1>
+    </header>
+
+    <!--BEM-->
+
+    <header><h2>BEM</h2></header>
+
+    <!--B(Block):Es un componente independiente en una interfaz de usuario. Actúa como un contenedor para elementos relacionados y define su estilo y comportamiento. -->
+
+    <!--Por ejemplo:-->
+
+    <!--Block: <div class="block"></div>-->
+
+    <!--E(Element):Es una parte específica de un bloque que realiza una función dentro de ese bloque y representa un elemento secundario dentro de la estructura del bloque. -->
+
+    <!--Por ejemplo:-->
+
+    <!--Element: <img class="block__img" src="img/bem imagen.png" alt="">-->
+    
+    <!--M(Modifier):Es una variación o ajuste específico aplicado a un bloque o elemento para cambiar su apariencia o comportamiento sin alterar su estructura base. -->
+
+    <!--Por ejemplo:-->
+
+    <!--Modificador: <button class="button button--large">Enviar</button>-->
+
+    
+        <div class="block">
+            <img class="block__img" src="img/bem imagen.png" alt="">
+            <p class="block__paragraph">Es una convención de nomenclatura y estructura de código CSS para
+            crear interfaces web más escalables y mantenibles. Fue desarrollada
+            por Yandex, una empresa de tecnología rusa, y se ha vuelto muy popular
+            en la comunidad de desarrollo web debido a su enfoque claro y estructurado.</p>
+            <button class="button button--large">Enviar</button>
+        </div>
+
+    <!--SUITCSS-->
+
+    <!--SUIT: "Simple Unencumbered Interactive and Testable" en español (Simple Sin Obstáculos Interactivo y Testeable).  Es una metodología de diseño CSS y una colección de estilos modulares que se enfoca en crear componentes web reutilizables y escalables.  -->
+
+    <header>
+        <h2>SUITCSS</h2>
+    </header>
+
+    <div class="component">
+        <img class="component-items" src="img/SUITCSS.png" alt="">
+        <p class="component-paragraph">SUITCSS es una metodología de diseño CSS y una colección de estilos
+        modulares que se enfoca en crear componentes web reutilizables y escalables. Su nombre, SUIT, proviene
+        de "Simple, Unencumbered, Interactive, and Testable" (Simple, sin obstáculos, interactivo y testeable),
+        reflejando sus principios fundamentales.</p>
+        <button class="button button--boton">Enviar</button>
+    </div>
+</body>
+</html>
