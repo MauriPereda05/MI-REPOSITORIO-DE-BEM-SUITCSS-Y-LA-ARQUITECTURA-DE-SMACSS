@@ -21,18 +21,20 @@ body {
   display: grid;
   text-align: center;
 }
-.container-items input {
-  margin: 0 auto;
-  margin-top: 15px;
-  width: 330px;
-  height: 40px;
-}
 .container-items img {
   margin-bottom: 40px;
   border-radius: 200px;
   padding: 20px;
 }
-.container-items button {
+
+input {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 330px;
+  height: 40px;
+}
+
+button {
   margin: 0 auto;
   margin-top: 20px;
   width: 230px;
