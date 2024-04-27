@@ -28,7 +28,7 @@ body {
   height: 40px;
 }
 .container-items img {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   border-radius: 200px;
   padding: 20px;
 }
@@ -50,6 +50,12 @@ input {
   border: none;
   background-color: transparent;
   border-bottom: 1px solid black;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Lugrasimo", cursive;
+  margin: 0 auto;
 }
 
 button {
